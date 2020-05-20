@@ -1,28 +1,12 @@
-# esx_shops
+# esx_policeshop
 
-## Download & Installation
+Modified from esx_shop for latest es_extended
+Installation
+    Import esx_policeshop.sql to your database (change essentialmode in esx_policeshop.sql USE essentialmode; to your database name)
+    Add this in your server.cfg:
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save --folder=esx esx-org/esx_shops
-```
+start esx_policeshop
 
-### Using Git
-```
-cd resources
-git clone https://github.com/ESX-Org/esx_shops [esx]/esx_shops
-```
-
-### Manually
-- Download https://github.com/ESX-Org/esx_shops/archive/master.zip
-- Put it in the `[esx]` directory
-
-## Installation
-- Import `esx_shops.sql` to your database
-- Add this in your `server.cfg`:
-
-```
-start esx_shops
 ```
 
 # Legal
